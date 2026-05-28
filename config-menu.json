@@ -2,6 +2,13 @@
     "version": 1,
     "items": [
         {
+            "id": "source",
+            "description": "配置源",
+            "repoType": "git",
+            "path": "~/.cvte-plugin/source",
+            "repoUrl": "git@github.com:githubsyf3527/vscode-plugin-config-demo.git"
+        },
+        {
             "id": "bin",
             "description": "通用工具V1",
             "repoType": "git",
