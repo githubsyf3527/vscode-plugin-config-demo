@@ -5,21 +5,21 @@
             "id": "source",
             "description": "配置源V1",
             "repoType": "git",
-            "path": "~/.cvte-plugin/source",
+            "path": "~/.vscode-plugin/source",
             "codeInit": "git clone git@github.com:githubsyf3527/vscode-plugin-config-demo.git"
         },
         {
             "id": "bin",
             "description": "通用工具V1",
             "repoType": "git",
-            "path": "~/.cvte-plugin/bin",
+            "path": "~/.vscode-plugin/bin",
             "codeInit": "git clone git@gitlab.gz.cvte.cn:syssw_cbb/tools/cvte-plugin/bin.git"
         },
         {
             "id": "skills",
             "description": "AI技能V1",
             "repoType": "repo",
-            "path": "~/.cvte-plugin/ai/skills",
+            "path": "~/.vscode-plugin/ai/skills",
             "codeInit": "repo init -u git@gitlab.gz.cvte.cn:syssw_cbb/tools/ai/skills-manifest.git -b default -m dss-sw.xml"
         }
     ]
