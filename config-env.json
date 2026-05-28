@@ -1,0 +1,11 @@
+{
+    "version": 1,
+    "items": [
+        {
+            "envKey": "TOKEN_JIRA",
+            "description": "jira",
+            "showDesc": true,
+            "descHtml": "打开 <a href=\"https://jira.cvte.com/secure/ViewProfile.jspa\">https://jira.cvte.com/secure/ViewProfile.jspa</a> 创建令牌，之后填写更新"
+        }
+    ]
+}
