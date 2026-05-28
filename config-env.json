@@ -11,7 +11,7 @@
             "envKey": "TOKEN_JENKINS",
             "description": "jenkins",
             "showDesc": true,
-            "descHtml": "打开 <a href=\"https://iipjenkins.gz.xxxxx.cn/user/shenyingfeng/configure\">https://iipjenkins.gz.xxxxx.cn/user/shenyingfeng/configure</a> 创建令牌，之后填写更新"
+            "descHtml": "打开 <a href=\"https://iipjenkins.gz.xxxxx.cn/user/xxxxx/configure\">https://iipjenkins.gz.xxxxx.cn/user/xxxxx/configure</a> 创建令牌，之后填写更新"
         },
         {
             "envKey": "TOKEN_KB",
