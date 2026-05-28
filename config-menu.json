@@ -1,20 +1,20 @@
 {
-  "version": 1,
-  "items": [
-    {
-      "id": "bin",
-      "description": "通用工具",
-      "repoType": "git",
-      "path": "~/.cvte-plugin/bin",
-      "repoUrl": "git@gitlab.gz.cvte.cn:syssw_cbb/tools/cvte-plugin/bin.git"
-    },
-    {
-      "id": "skills",
-      "description": "AI技能",
-      "repoType": "repo",
-      "path": "~/.cvte-plugin/ai/skills",
-      "repoInit": "repo init -u git@gitlab.gz.cvte.cn:syssw_cbb/tools/ai/skills-manifest.git -b default -m dss-sw.xml",
-      "updateScript": "~/.cvte-plugin/bin/repo/jks_clean_release.sh"
-    }
-  ]
+    "version": 1,
+    "items": [
+        {
+            "id": "bin",
+            "description": "通用工具V1",
+            "repoType": "git",
+            "path": "~/.cvte-plugin/bin",
+            "repoUrl": "git@gitlab.gz.cvte.cn:syssw_cbb/tools/cvte-plugin/bin.git"
+        },
+        {
+            "id": "skills",
+            "description": "AI技能V2",
+            "repoType": "repo",
+            "path": "~/.cvte-plugin/ai/skills",
+            "repoInit": "repo init -u git@gitlab.gz.cvte.cn:syssw_cbb/tools/ai/skills-manifest.git -b default -m dss-sw.xml",
+            "updateScript": "~/.cvte-plugin/bin/repo/jks_clean_release.sh"
+        }
+    ]
 }
