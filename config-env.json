@@ -5,7 +5,31 @@
             "envKey": "TOKEN_JIRA",
             "description": "jira",
             "showDesc": true,
-            "descHtml": "打开 <a href=\"https://jira.cvte.com/secure/ViewProfile.jspa\">https://jira.cvte.com/secure/ViewProfile.jspa</a> 创建令牌，之后填写更新"
+            "descHtml": "打开 <a href=\"https://jira.xxxxx.com/secure/ViewProfile.jspa\">https://jira.xxxxx.com/secure/ViewProfile.jspa</a> 创建令牌，之后填写更新"
+        },
+        {
+            "envKey": "TOKEN_JENKINS",
+            "description": "jenkins",
+            "showDesc": true,
+            "descHtml": "打开 <a href=\"https://iipjenkins.gz.xxxxx.cn/user/shenyingfeng/configure\">https://iipjenkins.gz.xxxxx.cn/user/shenyingfeng/configure</a> 创建令牌，之后填写更新"
+        },
+        {
+            "envKey": "TOKEN_KB",
+            "description": "kb",
+            "showDesc": true,
+            "descHtml": "打开 <a href=\"https://kb.xxxxx.com/plugins/personalaccesstokens/usertokens.action\">https://kb.xxxxx.com/plugins/personalaccesstokens/usertokens.action</a> 创建令牌，之后填写更新"
+        },
+        {
+            "envKey": "TOKEN_GITLAB",
+            "description": "gitlab",
+            "showDesc": true,
+            "descHtml": "打开 <a href=\"https://gitlab.gz.xxxxx.cn/-/user_settings/personal_access_tokens?page=1&state=active&sort=expires_asc\">https://gitlab.gz.xxxxx.cn/-/user_settings/personal_access_tokens?page=1&state=active&sort=expires_asc</a> 创建令牌，之后填写更新"
+        },
+        {
+            "envKey": "TOKEN_GITHUB",
+            "description": "github",
+            "showDesc": true,
+            "descHtml": "打开 <a href=\"https://github.com/settings/tokens\">https://github.com/settings/tokens</a> 创建令牌，之后填写更新"
         }
     ]
 }
